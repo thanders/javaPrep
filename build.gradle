@@ -1,0 +1,12 @@
+group 'javaPrep'
+version '1.0-SNAPSHOT'
+
+defaultTasks 'build'
+wrapper {
+    description "Regenerates the Gradle Wrapper files"
+    gradleVersion = '5.5'
+    distributionUrl = "http://services.gradle.org/distributions/gradle-${gradleVersion}-all.zip"
+}
+
+
+

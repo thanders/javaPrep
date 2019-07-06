@@ -1,0 +1,4 @@
+rootProject.name = 'javaPrep'
+include 'backend'
+include 'frontend'
+
